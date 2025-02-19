@@ -1,10 +1,18 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
+<div class="">
+
+    <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url({{asset('assets/images/hero_bg_2.jpg')}});" data-aos="fade">
+      <div class="container">
+        <div class="row align-items-center justify-content-center text-center">
+          <div class="col-md-10">
+            <h1 class="mb-2">Register</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
                 <div class="card-header">{{ __('Register') }}</div>
 
                 <div class="card-body">
@@ -71,7 +79,7 @@
                     </form>
                 </div>
             </div>
-        </div>
-    </div>
+
+
 </div>
 @endsection
